@@ -1,0 +1,13 @@
+---Код Lua блок смерти 
+local block = script.Parent -- Получаем блок, к которому прикреплен скрипт
+
+function onTouch(hit)
+    local character = hit.Parent
+    local humanoid = character:FindFirstChildOfClass("Humanoid")
+
+    if humanoid then
+        humanoid.Health = 0 -- Устанавливаем здоровье игрока в 0, что приводит к его "смерти"
+    end
+end
+
+block.Touched:Connect(onTouch) -- Подключаем функцию onTouch к событию касания блока
