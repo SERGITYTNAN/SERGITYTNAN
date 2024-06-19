@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @SERGITYTNAN
 - 👀 I’m interested in programing
-- 💞️ I invite you to develop with me a new mia language like Lia
+- 💞️ I invite you to develop with me a new mia language like Lua
 - 📫 How to reach me 1 post office cheboturov@internet.ru 2 post office yegor.cheboturov@mail.ru
 
 <!---
